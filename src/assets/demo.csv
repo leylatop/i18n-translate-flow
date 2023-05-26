@@ -1,0 +1,6 @@
+key,mockitt-en,zh-CN,mockitt-jp
+add,Add,添加,
+addPageAbove,""submit""click,上方添加页面,
+sharingText1,"Link ""copied"", for more settings please open",分享链接已复制，更多设置请打开,
+Resources.ComboPanel.noComboGroupsTips,,<span class=""title"">创建组件：</span>选择一个组件，右键选择”添加到%name%组件”，也可以点击”新建组件”按钮。<a href='%href%' target='_blank'>了解更多</a>,
+Resources.ComboPanel.noOrgCombo,Create widget: Select layer(s) and right click ""+"" in the panel.,暂无团队组件，选中元素后点击加号可添加，团队共享使用,
