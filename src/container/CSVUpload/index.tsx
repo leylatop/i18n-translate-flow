@@ -1,21 +1,21 @@
 import { useRef, useState } from 'react'
 import styled from 'styled-components'
-import { connect } from 'react-redux'
+// import { connect } from 'react-redux'
 import { parsedCSVToArray } from '../../utils/parse'
 
-interface HTMLInputEvent extends Event {
-  target: HTMLInputElement & EventTarget
-}
+// interface HTMLInputEvent extends Event {
+//   target: HTMLInputElement & EventTarget
+// }
 const CSVUpload = () => {
   const [fileData, setFileData] = useState([[]] as string[][])
   const ref = useRef(null)
-  const handleOnChange = (event: HTMLInputEvent) => {
+  const handleOnChange = (event: any) => {
     const target = (event?.target as HTMLInputElement)
     const file = target.files && target.files[0]
     handleShowCSV(file)
   }
 
-  const handleShowCSV = (file) => {
+  const handleShowCSV = (file: any) => {
     const reader = new FileReader()
     reader.onload = (event: ProgressEvent<FileReader>) => {
       if(event.target) {
