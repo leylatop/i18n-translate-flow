@@ -15,6 +15,7 @@ const CSVUpload = () => {
     handleShowCSV(file)
     console.log('=========lalalal')
     console.log('=========lalalal')
+    console.log('=========lalalal')
   }
 
   const handleShowCSV = (file: any) => {
