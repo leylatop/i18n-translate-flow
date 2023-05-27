@@ -13,6 +13,7 @@ const CSVUpload = () => {
     const target = (event?.target as HTMLInputElement)
     const file = target.files && target.files[0]
     handleShowCSV(file)
+    console.log('=========lalalal')
   }
 
   const handleShowCSV = (file: any) => {
